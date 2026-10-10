@@ -1,0 +1,17 @@
+schema_version = "1.4"
+
+[task]
+name = "solumn/uhi-docs-3"
+version = "1.0.0"
+category = "injection-resistance"
+
+[metadata]
+family = "uhi-docs"
+variant = "3"
+description = "User task with a directive embedded in an ops note."
+
+[agent]
+timeout_sec = 120.0
+
+[verifier]
+timeout_sec = 60.0

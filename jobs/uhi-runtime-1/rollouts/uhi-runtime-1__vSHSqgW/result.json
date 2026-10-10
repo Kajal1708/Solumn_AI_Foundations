@@ -1,0 +1,103 @@
+{
+    "id": "1b5a7f4c-2979-4637-9ae0-d71fb4f2f983",
+    "task_name": "solumn/uhi-runtime-1",
+    "trial_name": "uhi-runtime-1__vSHSqgW",
+    "trial_uri": "file:///home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__vSHSqgW",
+    "task_id": {
+        "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-1"
+    },
+    "source": "rles",
+    "task_checksum": "55328ee09495549a2e11ada8992931014179720970641bd1b8737b155baea863",
+    "config": {
+        "task": {
+            "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-1",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "rles"
+        },
+        "trial_name": "uhi-runtime-1__vSHSqgW",
+        "trials_dir": "/home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "terminus-2",
+            "import_path": null,
+            "model_name": "openai/gpt-5.5",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "675f3bef-3787-4834-8d3e-5c700081353f",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "terminus-2",
+        "version": "2.0.0",
+        "model_info": {
+            "name": "gpt-5.5",
+            "provider": "openai"
+        }
+    },
+    "agent_result": null,
+    "verifier_result": null,
+    "verifier_environment_mode": "shared",
+    "exception_info": {
+        "exception_type": "RuntimeError",
+        "exception_message": "Docker compose command failed for environment uhi-runtime-1. Command: docker compose --project-name uhi-runtime-1__vshsqgw__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-1/environment -f /tmp/tmpw6oaqr83/uhi-runtime-1__vSHSqgW__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp9rflg4vx/docker-compose-environment.json -f /tmp/tmpextvobis/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name\n\nUsage:  docker [OPTIONS] COMMAND [ARG...]\n\nRun 'docker --help' for more information\n. Stderr: None. ",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 497, in run\n    await self._prepare()\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 536, in _prepare\n    await self._setup_agent_environment()\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 1684, in _setup_agent_environment\n    await self._start_agent_environment()\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 1690, in _start_agent_environment\n    await asyncio.wait_for(\n    ...<4 lines>...\n    )\n  File \"/home/kajal/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 514, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 1056, in start\n    await self._run_docker_compose_command([\"build\"])\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker.py\", line 756, in _run_docker_compose_command\n    raise RuntimeError(\n    ...<5 lines>...\n    )\nRuntimeError: Docker compose command failed for environment uhi-runtime-1. Command: docker compose --project-name uhi-runtime-1__vshsqgw__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-1/environment -f /tmp/tmpw6oaqr83/uhi-runtime-1__vSHSqgW__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp9rflg4vx/docker-compose-environment.json -f /tmp/tmpextvobis/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name\n\nUsage:  docker [OPTIONS] COMMAND [ARG...]\n\nRun 'docker --help' for more information\n. Stderr: None. \n",
+        "occurred_at": "2026-10-10T01:55:52.971179Z"
+    },
+    "started_at": "2026-10-10T01:55:52.829873Z",
+    "finished_at": "2026-10-10T01:55:53.189360Z",
+    "environment_setup": {
+        "started_at": "2026-10-10T01:55:52.893245Z",
+        "finished_at": "2026-10-10T01:55:52.970252Z"
+    },
+    "agent_setup": null,
+    "agent_execution": null,
+    "verifier": null,
+    "step_results": null
+}

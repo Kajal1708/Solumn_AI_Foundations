@@ -1,0 +1,13 @@
+Trial authority-2__zVHcEcG failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__zvhcecg__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpc3x83chw/authority-2__zVHcEcG__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpr48022m5/docker-compose-environment.json -f /tmp/tmpk92ba5l3/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__zvhcecg__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpc3x83chw/authority-2__zVHcEcG__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpr48022m5/docker-compose-environment.json -f /tmp/tmpk92ba5l3/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 

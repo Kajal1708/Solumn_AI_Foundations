@@ -1,0 +1,84 @@
+Trial uhi-runtime-3__4rnQ4HW failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__4rnq4hw__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmp7vpft2px/uhi-runtime-3__4rnQ4HW__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpgzhlu5zp/docker-compose-environment.json -f /tmp/tmpwfwse5n8/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Trial uhi-runtime-3__NCxhkg8 failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__ncxhkg8__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmpd49uxy9r/uhi-runtime-3__NCxhkg8__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpogqsd33j/docker-compose-environment.json -f /tmp/tmpqfxmv4ur/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Trial uhi-runtime-3__aYKnJQY failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__ayknjqy__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmpz7gggl9c/uhi-runtime-3__aYKnJQY__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp7ebyzq0h/docker-compose-environment.json -f /tmp/tmpc_knrubr/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Trial uhi-runtime-3__JFb6G9e failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__jfb6g9e__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmp78z13vlt/uhi-runtime-3__JFb6G9e__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpq57oog6a/docker-compose-environment.json -f /tmp/tmp_ptgrmsq/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__4rnq4hw__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmp7vpft2px/uhi-runtime-3__4rnQ4HW__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpgzhlu5zp/docker-compose-environment.json -f /tmp/tmpwfwse5n8/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Trial uhi-runtime-3__RiSAsGC failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__risasgc__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmptyysged8/uhi-runtime-3__RiSAsGC__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpsa14ovee/docker-compose-environment.json -f /tmp/tmpgq8u32k3/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__ncxhkg8__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmpd49uxy9r/uhi-runtime-3__NCxhkg8__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpogqsd33j/docker-compose-environment.json -f /tmp/tmpqfxmv4ur/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__ayknjqy__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmpz7gggl9c/uhi-runtime-3__aYKnJQY__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp7ebyzq0h/docker-compose-environment.json -f /tmp/tmpc_knrubr/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Trial uhi-runtime-3__gWEYy7f failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__gweyy7f__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmp6l8rcsw7/uhi-runtime-3__gWEYy7f__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpexz96lfb/docker-compose-environment.json -f /tmp/tmp34umjj5q/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__jfb6g9e__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmp78z13vlt/uhi-runtime-3__JFb6G9e__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpq57oog6a/docker-compose-environment.json -f /tmp/tmp_ptgrmsq/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__risasgc__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmptyysged8/uhi-runtime-3__RiSAsGC__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpsa14ovee/docker-compose-environment.json -f /tmp/tmpgq8u32k3/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-3. Command: docker compose --project-name uhi-runtime-3__gweyy7f__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-3/environment -f /tmp/tmp6l8rcsw7/uhi-runtime-3__gWEYy7f__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpexz96lfb/docker-compose-environment.json -f /tmp/tmp34umjj5q/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached

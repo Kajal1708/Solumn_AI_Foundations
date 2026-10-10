@@ -1,0 +1,13 @@
+Trial uhi-runtime-1__rzu7tTa failed: Docker compose command failed for environment uhi-runtime-1. Command: docker compose --project-name uhi-runtime-1__rzu7tta__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-1/environment -f /tmp/tmp1c90u8we/uhi-runtime-1__rzu7tTa__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpsqapjw7f/docker-compose-environment.json -f /tmp/tmp8iu921g5/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-1. Command: docker compose --project-name uhi-runtime-1__rzu7tta__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-1/environment -f /tmp/tmp1c90u8we/uhi-runtime-1__rzu7tTa__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpsqapjw7f/docker-compose-environment.json -f /tmp/tmp8iu921g5/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 

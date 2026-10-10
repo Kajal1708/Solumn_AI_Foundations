@@ -1,0 +1,13 @@
+Trial uhi-docs-2__qHxfKmS failed: Docker compose command failed for environment uhi-docs-2. Command: docker compose --project-name uhi-docs-2__qhxfkms__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-2/environment -f /tmp/tmpr184mttn/uhi-docs-2__qHxfKmS__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp7v6xzft6/docker-compose-environment.json -f /tmp/tmp_081p7kg/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment uhi-docs-2. Command: docker compose --project-name uhi-docs-2__qhxfkms__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-2/environment -f /tmp/tmpr184mttn/uhi-docs-2__qHxfKmS__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp7v6xzft6/docker-compose-environment.json -f /tmp/tmp_081p7kg/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 

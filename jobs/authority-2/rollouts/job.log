@@ -1,0 +1,84 @@
+Trial authority-2__zVHcEcG failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__zvhcecg__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpc3x83chw/authority-2__zVHcEcG__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpr48022m5/docker-compose-environment.json -f /tmp/tmpk92ba5l3/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Trial authority-2__GnKmtZf failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__gnkmtzf__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpgebo2rng/authority-2__GnKmtZf__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpdcc_4xm9/docker-compose-environment.json -f /tmp/tmp6opvnfe4/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Trial authority-2__Pqm9tYQ failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__pqm9tyq__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmp3eloxqqn/authority-2__Pqm9tYQ__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpm5mdfid7/docker-compose-environment.json -f /tmp/tmpw339yl3u/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Trial authority-2__TA2CR8N failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__ta2cr8n__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmp1wxjzygs/authority-2__TA2CR8N__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp02ni6jfp/docker-compose-environment.json -f /tmp/tmpzavdtw7j/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Collecting main service artifacts
+Collecting main service artifacts
+Collecting main service artifacts
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__zvhcecg__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpc3x83chw/authority-2__zVHcEcG__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpr48022m5/docker-compose-environment.json -f /tmp/tmpk92ba5l3/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__gnkmtzf__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpgebo2rng/authority-2__GnKmtZf__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpdcc_4xm9/docker-compose-environment.json -f /tmp/tmp6opvnfe4/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Trial authority-2__6zJaVue failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__6zjavue__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmp961u_e5y/authority-2__6zJaVue__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpib9za4hx/docker-compose-environment.json -f /tmp/tmp0ttb_2iw/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__pqm9tyq__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmp3eloxqqn/authority-2__Pqm9tYQ__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpm5mdfid7/docker-compose-environment.json -f /tmp/tmpw339yl3u/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Trial authority-2__eNE3nsN failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__ene3nsn__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpfvn980o8/authority-2__eNE3nsN__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpybu_y2li/docker-compose-environment.json -f /tmp/tmpi1hgij0n/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__ta2cr8n__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmp1wxjzygs/authority-2__TA2CR8N__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp02ni6jfp/docker-compose-environment.json -f /tmp/tmpzavdtw7j/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Collecting main service artifacts
+Collecting main service artifacts
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__6zjavue__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmp961u_e5y/authority-2__6zJaVue__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpib9za4hx/docker-compose-environment.json -f /tmp/tmp0ttb_2iw/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Docker compose down failed: Docker compose command failed for environment authority-2. Command: docker compose --project-name authority-2__ene3nsn__env --project-directory /home/kajal/Desktop/Project/rles/authority-2/environment -f /tmp/tmpfvn980o8/authority-2__eNE3nsN__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpybu_y2li/docker-compose-environment.json -f /tmp/tmpi1hgij0n/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
+
+Usage:  docker [OPTIONS] COMMAND [ARG...]
+
+Run 'docker --help' for more information
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached

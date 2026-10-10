@@ -1,0 +1,19 @@
+{
+    "job_name": "rollouts",
+    "jobs_dir": "/home/kajal/Desktop/Project/jobs/uhi-docs-1",
+    "n_attempts": 6,
+    "agents": [
+        {
+            "name": "terminus-2",
+            "model_name": "openai/gpt-5.5"
+        }
+    ],
+    "datasets": [
+        {
+            "path": "/home/kajal/Desktop/Project/rles",
+            "task_names": [
+                "uhi-docs-1"
+            ]
+        }
+    ]
+}

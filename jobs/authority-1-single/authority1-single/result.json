@@ -1,0 +1,37 @@
+{
+    "id": "10effc92-4267-4564-b916-120965fff92b",
+    "started_at": "2026-10-10T07:42:36.970421",
+    "updated_at": "2026-10-10T07:43:19.815661",
+    "finished_at": "2026-10-10T07:43:19.815661",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "terminus-2__gpt-5.5__rles": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {},
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "authority-1__8GZMXFF"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 3222,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 1262,
+        "cost_usd": 0.053970000000000004
+    }
+}
