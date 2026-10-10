@@ -1,6 +1,6 @@
 {
     "schema_version": 3,
-    "created_at": "2026-10-10T01:55:56.436725Z",
+    "created_at": "2026-10-10T03:40:58.729448Z",
     "harbor": {
         "version": "0.24.0",
         "is_editable": false
@@ -9,15 +9,15 @@
     "retry": {
         "max_retries": 0,
         "exclude_exceptions": [
-            "RewardFileEmptyError",
-            "VerifierTimeoutError",
-            "ModelNotFoundError",
-            "AgentAuthenticationError",
-            "AgentSafetyRefusalError",
-            "AgentTimeoutError",
-            "RewardFileNotFoundError",
             "VerifierOutputParseError",
-            "ApiUsageLimitError"
+            "RewardFileEmptyError",
+            "ModelNotFoundError",
+            "ApiUsageLimitError",
+            "AgentSafetyRefusalError",
+            "VerifierTimeoutError",
+            "AgentAuthenticationError",
+            "AgentTimeoutError",
+            "RewardFileNotFoundError"
         ],
         "wait_multiplier": 1.0,
         "min_wait_sec": 1.0,
@@ -30,7 +30,7 @@
                 "name": "uhi-runtime-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:293c9677260ff1a8a22323ec74755eef2371c4217196ef4b1481be3e1958b2ab",
+                "digest": "sha256:23a526d074b660778ca14a837d2f992711f80903faa03d4cf3fa0d30181cb81d",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-2"
             },
@@ -69,7 +69,7 @@
                 "name": "uhi-runtime-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:293c9677260ff1a8a22323ec74755eef2371c4217196ef4b1481be3e1958b2ab",
+                "digest": "sha256:23a526d074b660778ca14a837d2f992711f80903faa03d4cf3fa0d30181cb81d",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-2"
             },
@@ -108,7 +108,7 @@
                 "name": "uhi-runtime-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:293c9677260ff1a8a22323ec74755eef2371c4217196ef4b1481be3e1958b2ab",
+                "digest": "sha256:23a526d074b660778ca14a837d2f992711f80903faa03d4cf3fa0d30181cb81d",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-2"
             },
@@ -147,7 +147,7 @@
                 "name": "uhi-runtime-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:293c9677260ff1a8a22323ec74755eef2371c4217196ef4b1481be3e1958b2ab",
+                "digest": "sha256:23a526d074b660778ca14a837d2f992711f80903faa03d4cf3fa0d30181cb81d",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-2"
             },
@@ -186,7 +186,7 @@
                 "name": "uhi-runtime-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:293c9677260ff1a8a22323ec74755eef2371c4217196ef4b1481be3e1958b2ab",
+                "digest": "sha256:23a526d074b660778ca14a837d2f992711f80903faa03d4cf3fa0d30181cb81d",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-2"
             },
@@ -225,7 +225,7 @@
                 "name": "uhi-runtime-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:293c9677260ff1a8a22323ec74755eef2371c4217196ef4b1481be3e1958b2ab",
+                "digest": "sha256:23a526d074b660778ca14a837d2f992711f80903faa03d4cf3fa0d30181cb81d",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-runtime-2"
             },

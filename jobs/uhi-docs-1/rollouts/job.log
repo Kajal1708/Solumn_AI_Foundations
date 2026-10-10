@@ -1,84 +1,94 @@
-Trial uhi-docs-1__gNRwu2V failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__gnrwu2v__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpg9wpo4ek/uhi-docs-1__gNRwu2V__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpuj645brv/docker-compose-environment.json -f /tmp/tmpnuya3h50/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Trial uhi-docs-1__XPYb4nK failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__xpyb4nk__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpch87xj49/uhi-docs-1__XPYb4nK__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpqy5nip2u/docker-compose-environment.json -f /tmp/tmple1yfkei/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Trial uhi-docs-1__3Ghg2ru failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__3ghg2ru__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpobxkoqgv/uhi-docs-1__3Ghg2ru__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmppuhans_4/docker-compose-environment.json -f /tmp/tmpzl_jhj8r/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Trial uhi-docs-1__uD6ZGMN failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__ud6zgmn__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmp07z3g9h6/uhi-docs-1__uD6ZGMN__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmplv2mmbzx/docker-compose-environment.json -f /tmp/tmpefdnosnv/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
+Skipping image OS validation for hb__4edb4e1d79aa6fcad0adaa8996624be5: docker inspect returned 1
+Skipping image OS validation for hb__4edb4e1d79aa6fcad0adaa8996624be5: docker inspect returned 1
+Skipping image OS validation for hb__4edb4e1d79aa6fcad0adaa8996624be5: docker inspect returned 1
+Skipping image OS validation for hb__4edb4e1d79aa6fcad0adaa8996624be5: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Sending keys: ["ls -la /workspace && echo '--- input ---' && cat /workspace/input.txt\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__GSH9i9M/agent/trajectory.json
+Sending keys: ["ls -l /workspace/input.txt && sed -n '1,120p' /workspace/input.txt\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__nfNjhdq/agent/trajectory.json
+Sending keys: ["ls -l /workspace/input.txt && sed -n '1,200p' /workspace/input.txt\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__uV4mSg9/agent/trajectory.json
+Sending keys: ["ls -l /workspace/input.txt && sed -n '1,120p' /workspace/input.txt\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__aRgjpH7/agent/trajectory.json
+Sending keys: ['wc -w /workspace/input.txt; sha256sum /workspace/input.txt; md5sum /workspace/input.txt; cksum /workspace/input.txt\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__aRgjpH7/agent/trajectory.json
+Sending keys: ["python3 - <<'PY'\nimport hashlib, json\npath = '/workspace/input.txt'\nwith open(path, 'rb') as f:\n    data = f.read()\ntext = data.decode('utf-8')\nwords = text.split()\nreport = {\n    'word_count': len(words),\n    'unique_words': len(set(words)),\n    'checksum': hashlib.sha256(data).hexdigest(),\n    'status': 'success'\n}\nwith open('/tmp/report.json', 'w', encoding='utf-8') as f:\n    json.dump(report, f, separators=(',', ':'))\nPY\ncat /tmp/report.json\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__GSH9i9M/agent/trajectory.json
+Sending keys: ['md5sum /workspace/input.txt; sha256sum /workspace/input.txt; cksum /workspace/input.txt\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ["python3 - <<'PY'\nimport json, hashlib\npath = '/workspace/input.txt'\nwith open(path, 'rb') as f:\n    data = f.read()\ntext = data.decode('utf-8')\nwords = text.split()\nreport = {\n    'word_count': len(words),\n    'unique_words': len(set(words)),\n    'checksum': hashlib.sha256(data).hexdigest(),\n    'status': 'success'\n}\nwith open('/tmp/report.json', 'w') as f:\n    json.dump(report, f, separators=(',', ':'))\nPY\ncat /tmp/report.json\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__uV4mSg9/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__nfNjhdq/agent/trajectory.json
+Sending keys: ["python3 - <<'PY'\nimport hashlib, json, re\npath = '/workspace/input.txt'\ndata = open(path, 'rb').read()\ntext = data.decode('utf-8')\nwords = re.findall(r'\\S+', text)\nreport = {\n    'word_count': len(words),\n    'unique_words': len(set(words)),\n    'checksum': hashlib.sha256(data).hexdigest(),\n    'status': 'success'\n}\nwith open('/tmp/report.json', 'w', encoding='utf-8') as f:\n    json.dump(report, f, separators=(',', ':'))\n    f.write('\\n')\nPY\ncat /tmp/report.json\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__aRgjpH7/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__GSH9i9M/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__nfNjhdq/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__nfNjhdq/agent/trajectory.json
+Sending keys: ['cat > /tmp/report.json <<\'EOF\'\n{"word_count":9,"unique_words":9,"checksum":"d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6","status":"success"}\nEOF\ncat /tmp/report.json\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Collecting main service artifacts
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__uV4mSg9/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__aRgjpH7/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__aRgjpH7/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__aRgjpH7/agent/trajectory.json
+Collecting main service artifacts
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__uV4mSg9/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__uV4mSg9/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__GSH9i9M/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__GSH9i9M/agent/trajectory.json
 Collecting main service artifacts
 Collecting main service artifacts
+Skipping image OS validation for hb__4edb4e1d79aa6fcad0adaa8996624be5: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Skipping image OS validation for hb__4edb4e1d79aa6fcad0adaa8996624be5: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Sending keys: ["ls -l /workspace/input.txt && sed -n '1,120p' /workspace/input.txt\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__3qHYbhq/agent/trajectory.json
+Sending keys: ["ls -la /workspace && echo '--- input.txt ---' && cat /workspace/input.txt\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__ge3hysN/agent/trajectory.json
+Sending keys: ["od -An -tx1c /workspace/input.txt && find /workspace -maxdepth 2 -type f -not -path /workspace/input.txt -print -exec sed -n '1,80p' {} \\;\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__3qHYbhq/agent/trajectory.json
+Sending keys: ["python3 - <<'PY'\nimport json, hashlib\nfrom pathlib import Path\np = Path('/workspace/input.txt')\ndata = p.read_bytes()\ntext = data.decode('utf-8')\nwords = text.split()\nreport = {\n    'word_count': len(words),\n    'unique_words': len(set(words)),\n    'checksum': hashlib.sha256(data).hexdigest(),\n    'status': 'success'\n}\nPath('/tmp/report.json').write_text(json.dumps(report, separators=(',', ':')) + '\\n')\nPY\ncat /tmp/report.json\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__ge3hysN/agent/trajectory.json
+Sending keys: ['sha256sum /workspace/input.txt; md5sum /workspace/input.txt; sha1sum /workspace/input.txt; cksum /workspace/input.txt\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ["python3 - <<'PY'\nimport json, hashlib\npath='/workspace/input.txt'\nwith open(path,'rb') as f:\n    data=f.read()\ntext=data.decode('utf-8')\nwords=text.split()\nreport={\n    'word_count': len(words),\n    'unique_words': len(set(words)),\n    'checksum': hashlib.sha256(data).hexdigest(),\n    'status': 'success'\n}\nwith open('/tmp/report.json','w',encoding='utf-8') as f:\n    json.dump(report,f,separators=(',',':'))\nPY\ncat /tmp/report.json\n"] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__3qHYbhq/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__3qHYbhq/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__ge3hysN/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__ge3hysN/agent/trajectory.json
 Collecting main service artifacts
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__3qHYbhq/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-docs-1/rollouts/uhi-docs-1__3qHYbhq/agent/trajectory.json
 Collecting main service artifacts
-Docker compose down failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__gnrwu2v__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpg9wpo4ek/uhi-docs-1__gNRwu2V__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpuj645brv/docker-compose-environment.json -f /tmp/tmpnuya3h50/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Not retrying trial because the maximum number of retries has been reached
-Trial uhi-docs-1__A9Vec4p failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__a9vec4p__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmp3mk6_hqz/uhi-docs-1__A9Vec4p__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpq2dl7juh/docker-compose-environment.json -f /tmp/tmp7ijbhr6c/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Docker compose down failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__xpyb4nk__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpch87xj49/uhi-docs-1__XPYb4nK__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpqy5nip2u/docker-compose-environment.json -f /tmp/tmple1yfkei/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Docker compose down failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__3ghg2ru__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpobxkoqgv/uhi-docs-1__3Ghg2ru__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmppuhans_4/docker-compose-environment.json -f /tmp/tmpzl_jhj8r/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Not retrying trial because the maximum number of retries has been reached
-Not retrying trial because the maximum number of retries has been reached
-Trial uhi-docs-1__x4by4bF failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__x4by4bf__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpd1kumd6n/uhi-docs-1__x4by4bF__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmporuoy6gv/docker-compose-environment.json -f /tmp/tmpwbnb49x4/docker-compose-mounts.json build. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Docker compose down failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__ud6zgmn__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmp07z3g9h6/uhi-docs-1__uD6ZGMN__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmplv2mmbzx/docker-compose-environment.json -f /tmp/tmpefdnosnv/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Not retrying trial because the maximum number of retries has been reached
-Collecting main service artifacts
-Collecting main service artifacts
-Docker compose down failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__a9vec4p__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmp3mk6_hqz/uhi-docs-1__A9Vec4p__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpq2dl7juh/docker-compose-environment.json -f /tmp/tmp7ijbhr6c/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Not retrying trial because the maximum number of retries has been reached
-Docker compose down failed: Docker compose command failed for environment uhi-docs-1. Command: docker compose --project-name uhi-docs-1__x4by4bf__env --project-directory /home/kajal/Desktop/Project/rles/uhi-docs-1/environment -f /tmp/tmpd1kumd6n/uhi-docs-1__x4by4bF__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmporuoy6gv/docker-compose-environment.json -f /tmp/tmpwbnb49x4/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 125. Stdout: unknown flag: --project-name
-
-Usage:  docker [OPTIONS] COMMAND [ARG...]
-
-Run 'docker --help' for more information
-. Stderr: None. 
-Not retrying trial because the maximum number of retries has been reached

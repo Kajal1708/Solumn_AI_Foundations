@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py", line 500, in run
+    await self._run()
+  File "/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/single_step.py", line 51, in _run
+    await self._run_verifier()
+  File "/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/single_step.py", line 105, in _run_verifier
+    self.result.verifier_result = await self._run_shared_verifier(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py", line 896, in _run_shared_verifier
+    return await self._verify_with_timeout(verifier, timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py", line 859, in _verify_with_timeout
+    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kajal/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/verifier/verifier.py", line 262, in verify
+    raise RewardFileNotFoundError(
+    ...<3 lines>...
+    )
+harbor.verifier.verifier.RewardFileNotFoundError: No reward file found at jobs/2026-10-10__09-17-39-map/task-0003__ggwYaYn/verifier/reward.txt or jobs/2026-10-10__09-17-39-map/task-0003__ggwYaYn/verifier/reward.json

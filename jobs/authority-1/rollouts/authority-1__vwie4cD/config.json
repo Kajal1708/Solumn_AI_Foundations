@@ -1,0 +1,13 @@
+{
+    "task": {
+        "path": "/home/kajal/Desktop/Project/rles/authority-1",
+        "source": "rles"
+    },
+    "trial_name": "authority-1__vwie4cD",
+    "trials_dir": "/home/kajal/Desktop/Project/jobs/authority-1/rollouts",
+    "agent": {
+        "name": "terminus-2",
+        "model_name": "openai/gpt-5.5"
+    },
+    "job_id": "4d319a5c-2ede-4d6e-b4e3-d33f3472390c"
+}

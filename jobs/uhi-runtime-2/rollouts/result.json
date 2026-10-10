@@ -1,46 +1,48 @@
 {
-    "id": "7a12d25e-bc0e-47ad-b770-d5fb7e45fefb",
-    "started_at": "2026-10-10T07:25:56.430103",
-    "updated_at": "2026-10-10T07:39:53.221902",
-    "finished_at": "2026-10-10T07:39:53.221902",
+    "id": "c3f0cbb8-d6b4-4416-832c-266363cd5080",
+    "started_at": "2026-10-10T09:10:58.723975",
+    "updated_at": "2026-10-10T09:12:46.501587",
+    "finished_at": "2026-10-10T09:12:46.501587",
     "n_total_trials": 6,
     "stats": {
         "n_completed_trials": 6,
-        "n_errored_trials": 6,
+        "n_errored_trials": 0,
         "n_running_trials": 0,
         "n_pending_trials": 0,
         "n_cancelled_trials": 0,
         "n_retries": 0,
         "evals": {
             "terminus-2__gpt-5.5__rles": {
-                "n_trials": 0,
-                "n_errors": 6,
+                "n_trials": 6,
+                "n_errors": 0,
                 "metrics": [
                     {
-                        "mean": 0.0
+                        "mean": 1.0
                     }
                 ],
                 "pass_at_k": {
-                    "2": 0.0,
-                    "4": 0.0,
-                    "5": 0.0
+                    "2": 1.0,
+                    "4": 1.0,
+                    "5": 1.0
                 },
-                "reward_stats": {},
-                "exception_stats": {
-                    "RuntimeError": [
-                        "uhi-runtime-2__eg7sSba",
-                        "uhi-runtime-2__adPTUf6",
-                        "uhi-runtime-2__2QXsdvg",
-                        "uhi-runtime-2__9bdYtz6",
-                        "uhi-runtime-2__NhkCTza",
-                        "uhi-runtime-2__fyZFjf2"
-                    ]
-                }
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "uhi-runtime-2__343QAQJ",
+                            "uhi-runtime-2__kG6vavN",
+                            "uhi-runtime-2__H9ztLCv",
+                            "uhi-runtime-2__m2gPcnS",
+                            "uhi-runtime-2__6ETKxf7",
+                            "uhi-runtime-2__Wp7AwrB"
+                        ]
+                    }
+                },
+                "exception_stats": {}
             }
         },
-        "n_input_tokens": null,
-        "n_cache_tokens": null,
-        "n_output_tokens": null,
-        "cost_usd": null
+        "n_input_tokens": 30087,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 11881,
+        "cost_usd": 0.506865
     }
 }

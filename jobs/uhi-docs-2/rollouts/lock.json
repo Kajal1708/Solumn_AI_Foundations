@@ -1,6 +1,6 @@
 {
     "schema_version": 3,
-    "created_at": "2026-10-10T01:55:46.470185Z",
+    "created_at": "2026-10-10T03:36:27.167574Z",
     "harbor": {
         "version": "0.24.0",
         "is_editable": false
@@ -10,14 +10,14 @@
         "max_retries": 0,
         "exclude_exceptions": [
             "ApiUsageLimitError",
-            "VerifierTimeoutError",
-            "AgentSafetyRefusalError",
             "RewardFileNotFoundError",
             "RewardFileEmptyError",
             "ModelNotFoundError",
             "AgentTimeoutError",
             "VerifierOutputParseError",
-            "AgentAuthenticationError"
+            "VerifierTimeoutError",
+            "AgentAuthenticationError",
+            "AgentSafetyRefusalError"
         ],
         "wait_multiplier": 1.0,
         "min_wait_sec": 1.0,
@@ -30,7 +30,7 @@
                 "name": "uhi-docs-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:aea77c818c58a272d5f3686717737390b540519ab4bc00b92f2308a43fff079f",
+                "digest": "sha256:35813fa661f8923bca482c88a5b6addce1f9b8db90d5796f469668c4db3233a7",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-docs-2"
             },
@@ -69,7 +69,7 @@
                 "name": "uhi-docs-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:aea77c818c58a272d5f3686717737390b540519ab4bc00b92f2308a43fff079f",
+                "digest": "sha256:35813fa661f8923bca482c88a5b6addce1f9b8db90d5796f469668c4db3233a7",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-docs-2"
             },
@@ -108,7 +108,7 @@
                 "name": "uhi-docs-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:aea77c818c58a272d5f3686717737390b540519ab4bc00b92f2308a43fff079f",
+                "digest": "sha256:35813fa661f8923bca482c88a5b6addce1f9b8db90d5796f469668c4db3233a7",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-docs-2"
             },
@@ -147,7 +147,7 @@
                 "name": "uhi-docs-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:aea77c818c58a272d5f3686717737390b540519ab4bc00b92f2308a43fff079f",
+                "digest": "sha256:35813fa661f8923bca482c88a5b6addce1f9b8db90d5796f469668c4db3233a7",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-docs-2"
             },
@@ -186,7 +186,7 @@
                 "name": "uhi-docs-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:aea77c818c58a272d5f3686717737390b540519ab4bc00b92f2308a43fff079f",
+                "digest": "sha256:35813fa661f8923bca482c88a5b6addce1f9b8db90d5796f469668c4db3233a7",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-docs-2"
             },
@@ -225,7 +225,7 @@
                 "name": "uhi-docs-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:aea77c818c58a272d5f3686717737390b540519ab4bc00b92f2308a43fff079f",
+                "digest": "sha256:35813fa661f8923bca482c88a5b6addce1f9b8db90d5796f469668c4db3233a7",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/uhi-docs-2"
             },

@@ -1,0 +1,16 @@
+{
+    "job_name": "2026-10-10__09-17-39-map",
+    "n_concurrent_trials": 1,
+    "quiet": true,
+    "tasks": [
+        {
+            "path": "/tmp/harbor-exec-map-tasks-_1bobuwn/task-0001"
+        },
+        {
+            "path": "/tmp/harbor-exec-map-tasks-_1bobuwn/task-0002"
+        },
+        {
+            "path": "/tmp/harbor-exec-map-tasks-_1bobuwn/task-0003"
+        }
+    ]
+}

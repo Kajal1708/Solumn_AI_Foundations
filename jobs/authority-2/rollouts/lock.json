@@ -1,6 +1,6 @@
 {
     "schema_version": 3,
-    "created_at": "2026-10-10T01:55:36.438338Z",
+    "created_at": "2026-10-10T03:30:58.697521Z",
     "harbor": {
         "version": "0.24.0",
         "is_editable": false
@@ -9,15 +9,15 @@
     "retry": {
         "max_retries": 0,
         "exclude_exceptions": [
+            "VerifierOutputParseError",
             "AgentAuthenticationError",
-            "AgentSafetyRefusalError",
-            "RewardFileNotFoundError",
             "RewardFileEmptyError",
-            "ApiUsageLimitError",
-            "VerifierTimeoutError",
-            "AgentTimeoutError",
             "ModelNotFoundError",
-            "VerifierOutputParseError"
+            "ApiUsageLimitError",
+            "RewardFileNotFoundError",
+            "VerifierTimeoutError",
+            "AgentSafetyRefusalError",
+            "AgentTimeoutError"
         ],
         "wait_multiplier": 1.0,
         "min_wait_sec": 1.0,
@@ -30,7 +30,7 @@
                 "name": "authority-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:e740b07d4a79a915133f6ae5371a0b869f6b6fab94fd7f3789f05be7063e0a68",
+                "digest": "sha256:07ebb92d24f1c5fe13c9f8b460f94f4ddaeea13ab627626465bdf4860746357f",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/authority-2"
             },
@@ -69,7 +69,7 @@
                 "name": "authority-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:e740b07d4a79a915133f6ae5371a0b869f6b6fab94fd7f3789f05be7063e0a68",
+                "digest": "sha256:07ebb92d24f1c5fe13c9f8b460f94f4ddaeea13ab627626465bdf4860746357f",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/authority-2"
             },
@@ -108,7 +108,7 @@
                 "name": "authority-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:e740b07d4a79a915133f6ae5371a0b869f6b6fab94fd7f3789f05be7063e0a68",
+                "digest": "sha256:07ebb92d24f1c5fe13c9f8b460f94f4ddaeea13ab627626465bdf4860746357f",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/authority-2"
             },
@@ -147,7 +147,7 @@
                 "name": "authority-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:e740b07d4a79a915133f6ae5371a0b869f6b6fab94fd7f3789f05be7063e0a68",
+                "digest": "sha256:07ebb92d24f1c5fe13c9f8b460f94f4ddaeea13ab627626465bdf4860746357f",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/authority-2"
             },
@@ -186,7 +186,7 @@
                 "name": "authority-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:e740b07d4a79a915133f6ae5371a0b869f6b6fab94fd7f3789f05be7063e0a68",
+                "digest": "sha256:07ebb92d24f1c5fe13c9f8b460f94f4ddaeea13ab627626465bdf4860746357f",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/authority-2"
             },
@@ -225,7 +225,7 @@
                 "name": "authority-2",
                 "version": "1.0.0",
                 "type": "local",
-                "digest": "sha256:e740b07d4a79a915133f6ae5371a0b869f6b6fab94fd7f3789f05be7063e0a68",
+                "digest": "sha256:07ebb92d24f1c5fe13c9f8b460f94f4ddaeea13ab627626465bdf4860746357f",
                 "source": "rles",
                 "path": "/home/kajal/Desktop/Project/rles/authority-2"
             },

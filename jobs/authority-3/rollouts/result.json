@@ -1,46 +1,51 @@
 {
-    "id": "7d3d245b-a6cc-4f81-ba0a-c209d9310bdb",
-    "started_at": "2026-10-10T07:25:39.632446",
-    "updated_at": "2026-10-10T07:39:41.810751",
-    "finished_at": "2026-10-10T07:39:41.810751",
+    "id": "cc4b17a5-45ee-45aa-8745-320b97f5ff79",
+    "started_at": "2026-10-10T09:02:51.735547",
+    "updated_at": "2026-10-10T09:04:36.901501",
+    "finished_at": "2026-10-10T09:04:36.901501",
     "n_total_trials": 6,
     "stats": {
         "n_completed_trials": 6,
-        "n_errored_trials": 6,
+        "n_errored_trials": 1,
         "n_running_trials": 0,
         "n_pending_trials": 0,
         "n_cancelled_trials": 0,
         "n_retries": 0,
         "evals": {
             "terminus-2__gpt-5.5__rles": {
-                "n_trials": 0,
-                "n_errors": 6,
+                "n_trials": 5,
+                "n_errors": 1,
                 "metrics": [
                     {
-                        "mean": 0.0
+                        "mean": 0.8333333333333334
                     }
                 ],
                 "pass_at_k": {
-                    "2": 0.0,
-                    "4": 0.0,
-                    "5": 0.0
+                    "2": 1.0,
+                    "4": 1.0,
+                    "5": 1.0
                 },
-                "reward_stats": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "authority-3__Xkz7WLj",
+                            "authority-3__x9LQgyV",
+                            "authority-3__Kx75Ld4",
+                            "authority-3__J2T3jf8",
+                            "authority-3__RZtFPZj"
+                        ]
+                    }
+                },
                 "exception_stats": {
-                    "RuntimeError": [
-                        "authority-3__rDwzpZ7",
-                        "authority-3__NFPAkk4",
-                        "authority-3__5JnLaNC",
-                        "authority-3__rqZ7mBX",
-                        "authority-3__h9r2LfY",
-                        "authority-3__xyh3VaC"
+                    "RewardFileNotFoundError": [
+                        "authority-3__Vr8beei"
                     ]
                 }
             }
         },
-        "n_input_tokens": null,
-        "n_cache_tokens": null,
-        "n_output_tokens": null,
-        "cost_usd": null
+        "n_input_tokens": 31472,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 11988,
+        "cost_usd": 0.517
     }
 }

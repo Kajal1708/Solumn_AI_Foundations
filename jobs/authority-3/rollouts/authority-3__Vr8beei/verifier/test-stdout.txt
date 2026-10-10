@@ -1,0 +1,3 @@
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+AssertionError: unexpected report: {'word_count': 9, 'unique_words': 9, 'checksum': 'd24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6', 'status': 'complete'}

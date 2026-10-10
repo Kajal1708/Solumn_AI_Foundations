@@ -1,0 +1,41 @@
+{
+    "id": "865a0957-6c5c-4a11-810f-3a4648587f6c",
+    "started_at": "2026-10-10T09:20:58.074491",
+    "updated_at": "2026-10-10T09:21:35.767131",
+    "finished_at": "2026-10-10T09:21:35.767131",
+    "n_total_trials": 3,
+    "stats": {
+        "n_completed_trials": 3,
+        "n_errored_trials": 3,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 0,
+                "n_errors": 3,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {
+                    "2": 0.0
+                },
+                "reward_stats": {},
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "task-0001__6NpcqNj",
+                        "task-0002__4EQMJpV",
+                        "task-0003__MyP6mtT"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

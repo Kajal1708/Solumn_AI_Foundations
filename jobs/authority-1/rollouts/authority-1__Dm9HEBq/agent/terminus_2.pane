@@ -1,0 +1,25 @@
+[?2004hroot@8dfc0cdb6b3c:/workspace# asciinema rec --stdin /logs/agent/recording.cast
+[?2004l[0;32masciinema: recording asciicast to /logs/agent/recording.cast[0m
+[0;32masciinema: press <ctrl-d> or type "exit" when you're done[0m
+[?2004hroot@8dfc0cdb6b3c:/workspace# clear
+[?2004l[H[J[3J[?2004hroot@8dfc0cdb6b3c:/workspace# ls -l /workspace/input.txt && sed -n '1,200p' /workspace/input.txt
+[?2004l-rw-rw-r-- 1 root root 51 Oct 10 01:27 /workspace/input.txt
+alpha beta gamma delta epsilon zeta eta theta iota
+[?2004hroot@8dfc0cdb6b3c:/workspace# python3 - <<'PY'
+[?2004l[?2004h> import json, hashlib
+[?2004l[?2004h> path = '/workspace/input.txt'
+[?2004l[?2004h> with open(path, 'rb') as f:
+[?2004l[?2004h>     data = f.read()
+[?2004l[?2004h> text = data.decode('utf-8')
+[?2004l[?2004h> words = text.split()
+[?2004l[?2004h> report = {
+[?2004l[?2004h>     'word_count': len(words),
+[?2004l[?2004h>     'unique_words': len(set(words)),
+[?2004l[?2004h>     'checksum': hashlib.sha256(data).hexdigest(),
+[?2004l[?2004h>     'status': 'success'
+[?2004l[?2004h> }
+[?2004l[?2004h> with open('/tmp/report.json', 'w') as f:
+[?2004l[?2004h>     json.dump(report, f, separators=(',', ':'))
+[?2004l[?2004h> PY
+[?2004l[?2004hroot@8dfc0cdb6b3c:/workspace# cat /tmp/report.json
+[?2004l{"word_count":9,"unique_words":9,"checksum":"d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6","status":"success"}[?2004hroot@8dfc0cdb6b3c:/workspace# 

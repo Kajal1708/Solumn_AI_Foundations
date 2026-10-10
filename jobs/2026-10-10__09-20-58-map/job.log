@@ -1,0 +1,18 @@
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Uploading environment/ to /app
+Collecting main service artifacts
+Trial task-0001__6NpcqNj failed: No reward file found at jobs/2026-10-10__09-20-58-map/task-0001__6NpcqNj/verifier/reward.txt or jobs/2026-10-10__09-20-58-map/task-0001__6NpcqNj/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Uploading environment/ to /app
+Collecting main service artifacts
+Trial task-0002__4EQMJpV failed: No reward file found at jobs/2026-10-10__09-20-58-map/task-0002__4EQMJpV/verifier/reward.txt or jobs/2026-10-10__09-20-58-map/task-0002__4EQMJpV/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Uploading environment/ to /app
+Collecting main service artifacts
+Trial task-0003__MyP6mtT failed: No reward file found at jobs/2026-10-10__09-20-58-map/task-0003__MyP6mtT/verifier/reward.txt or jobs/2026-10-10__09-20-58-map/task-0003__MyP6mtT/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached

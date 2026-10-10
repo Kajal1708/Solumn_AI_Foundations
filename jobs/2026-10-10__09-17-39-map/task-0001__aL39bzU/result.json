@@ -1,0 +1,117 @@
+{
+    "id": "e7ef34f5-bf22-468e-8380-8596dcb681d5",
+    "task_name": "solumn/uhi-runtime-3",
+    "trial_name": "task-0001__aL39bzU",
+    "trial_uri": "file:///home/kajal/Desktop/Project/jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU",
+    "task_id": {
+        "path": "/tmp/harbor-exec-map-tasks-_1bobuwn/task-0001"
+    },
+    "source": null,
+    "task_checksum": "2f84907f18803ec9118a59d94d32f84f93e8c40d06a338d28780ba3082b937c6",
+    "config": {
+        "task": {
+            "path": "/tmp/harbor-exec-map-tasks-_1bobuwn/task-0001",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "task-0001__aL39bzU",
+        "trials_dir": "jobs/2026-10-10__09-17-39-map",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "0b1ee4ad-29cc-4e55-a1b2-c07ca7994d6d",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": null,
+    "verifier_environment_mode": "shared",
+    "exception_info": {
+        "exception_type": "RewardFileNotFoundError",
+        "exception_message": "No reward file found at jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU/verifier/reward.txt or jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU/verifier/reward.json",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 500, in run\n    await self._run()\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 51, in _run\n    await self._run_verifier()\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/single_step.py\", line 105, in _run_verifier\n    self.result.verifier_result = await self._run_shared_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )\n    ^\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 896, in _run_shared_verifier\n    return await self._verify_with_timeout(verifier, timeout_sec)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/trial/trial.py\", line 859, in _verify_with_timeout\n    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/kajal/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/asyncio/tasks.py\", line 514, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"/home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/verifier/verifier.py\", line 262, in verify\n    raise RewardFileNotFoundError(\n    ...<3 lines>...\n    )\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU/verifier/reward.txt or jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU/verifier/reward.json\n",
+        "occurred_at": "2026-10-10T03:47:51.891024Z"
+    },
+    "started_at": "2026-10-10T03:47:39.995561Z",
+    "finished_at": "2026-10-10T03:48:02.878391Z",
+    "environment_setup": {
+        "started_at": "2026-10-10T03:47:40.010454Z",
+        "finished_at": "2026-10-10T03:47:51.080456Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-10T03:47:51.080488Z",
+        "finished_at": "2026-10-10T03:47:51.080525Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-10T03:47:51.080563Z",
+        "finished_at": "2026-10-10T03:47:51.300882Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-10T03:47:51.660406Z",
+        "finished_at": "2026-10-10T03:47:51.889758Z"
+    },
+    "step_results": null
+}

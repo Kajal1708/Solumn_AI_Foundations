@@ -1,0 +1,12 @@
+Skipping image OS validation for hb__a549813e02835d513ee0bf3d3aa174f8: docker inspect returned 1
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__9fMPwhA/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__9fMPwhA/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__9fMPwhA/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__9fMPwhA/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__9fMPwhA/agent/trajectory.json
+Collecting main service artifacts
+Cleanup interrupted for uhi-runtime-1__9fMPwhA, but agent environment stop is shielded and will complete
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-1. Command: docker compose --project-name uhi-runtime-1__9fmpwha__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-1/environment -f /tmp/tmpz_60o9ad/uhi-runtime-1__9fMPwhA__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmp1ul3h2xk/docker-compose-environment.json -f /tmp/tmp9n_5s2w6/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 130. Stdout:  Container uhi-runtime-1__9fmpwha__env-main-1 Stopping 
+ Container uhi-runtime-1__9fmpwha__env-main-1 Error Error while Stopping
+
+. Stderr: None. 

@@ -1,0 +1,46 @@
+[?2004hroot@8d85e8d63f3d:/workspace# asciinema rec --stdin /logs/agent/recording.cast
+[?2004l[0;32masciinema: recording asciicast to /logs/agent/recording.cast[0m
+[0;32masciinema: press <ctrl-d> or type "exit" when you're done[0m
+[?2004hroot@8d85e8d63f3d:/workspace# clear
+[?2004l[H[J[3J[?2004hroot@8d85e8d63f3d:/workspace# ls -la /workspace && sed -n '1,200p' /workspace/input.txt
+[?2004ltotal 12
+drwxr-xr-x 1 root root 4096 Oct 10 02:12 .
+drwxr-xr-x 1 root root 4096 Oct 10 03:33 ..
+-rw-rw-r-- 1 root root   51 Oct 10 01:27 input.txt
+alpha beta gamma delta epsilon zeta eta theta iota
+[?2004hroot@8d85e8d63f3d:/workspace# python3 - <<'PY'
+[?2004l[?2004h> from pathlib import Path
+[?2004l[?2004h> import hashlib, zlib
+[?2004l[?2004h> b=Path('/workspace/input.txt').read_bytes()
+[?2004l[?2004h> s=b.decode()
+[?2004l[?2004h> words=s.split()
+[?2004l[?2004h> print('repr',repr(s))
+[?2004l[?2004h> print('bytes',len(b),'words',len(words),'unique',len(set(words)))
+[?2004l[?2004h> print('sha256',hashlib.sha256(b).hexdigest())
+[?2004l[?2004h> print('sha1',hashlib.sha1(b).hexdigest())
+[?2004l[?2004h> print('md5',hashlib.md5(b).hexdigest())
+[?2004l[?2004h> print('crc32',format(zlib.crc32(b)&0xffffffff,'08x'))
+[?2004l[?2004h> print('sum_bytes',sum(b))
+[?2004l[?2004h> PY
+[?2004lrepr 'alpha beta gamma delta epsilon zeta eta theta iota\n'
+bytes 51 words 9 unique 9
+sha256 d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6
+sha1 e98e46080513444c5dc5292df1f24f1d2891694e
+md5 f9096ace936b29ce083de549224621ea
+crc32 62c68014
+sum_bytes 4708
+[?2004hroot@8d85e8d63f3d:/workspace# python3 - <<'PY'
+[?2004l[?2004h> import json
+[?2004l[?2004h> report = {
+[?2004l[?2004h>     "word_count": 9,
+[?2004l[?2004h>     "unique_words": 9,
+[?2004l[?2004h>     "checksum": "d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6",
+[?2004l[?2004h>     "status": "complete"
+[?2004l[?2004h> }
+[?2004l[?2004h> with open('/tmp/report.json', 'w') as f:
+[?2004l[?2004h>     json.dump(report, f, separators=(',', ':'))
+[?2004l[?2004h>     f.write('\n')
+[?2004l[?2004h> PY
+[?2004l[?2004hroot@8d85e8d63f3d:/workspace# cat /tmp/report.json
+[?2004l{"word_count":9,"unique_words":9,"checksum":"d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6","status":"complete"}
+[?2004hroot@8d85e8d63f3d:/workspace# 

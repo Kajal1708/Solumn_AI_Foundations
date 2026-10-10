@@ -1,0 +1,19 @@
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for ubuntu:latest: docker inspect returned 1
+Uploading environment/ to /app
+Collecting main service artifacts
+Trial task-0001__aL39bzU failed: No reward file found at jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU/verifier/reward.txt or jobs/2026-10-10__09-17-39-map/task-0001__aL39bzU/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Uploading environment/ to /app
+Collecting main service artifacts
+Trial task-0002__sMACKTa failed: No reward file found at jobs/2026-10-10__09-17-39-map/task-0002__sMACKTa/verifier/reward.txt or jobs/2026-10-10__09-17-39-map/task-0002__sMACKTa/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Uploading environment/ to /app
+Collecting main service artifacts
+Trial task-0003__ggwYaYn failed: No reward file found at jobs/2026-10-10__09-17-39-map/task-0003__ggwYaYn/verifier/reward.txt or jobs/2026-10-10__09-17-39-map/task-0003__ggwYaYn/verifier/reward.json
+Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached

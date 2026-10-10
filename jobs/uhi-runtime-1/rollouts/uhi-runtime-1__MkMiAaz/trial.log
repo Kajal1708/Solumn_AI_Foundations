@@ -1,0 +1,13 @@
+Skipping image OS validation for hb__a549813e02835d513ee0bf3d3aa174f8: docker inspect returned 1
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/agent/trajectory.json
+Trajectory dumped to /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/agent/trajectory.json
+Collecting main service artifacts
+Trial uhi-runtime-1__MkMiAaz failed: No reward file found at /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/verifier/reward.txt or /home/kajal/Desktop/Project/jobs/uhi-runtime-1/rollouts/uhi-runtime-1__MkMiAaz/verifier/reward.json
+Cleanup interrupted for uhi-runtime-1__MkMiAaz, but agent environment stop is shielded and will complete
+Docker compose down failed: Docker compose command failed for environment uhi-runtime-1. Command: docker compose --project-name uhi-runtime-1__mkmiaaz__env --project-directory /home/kajal/Desktop/Project/rles/uhi-runtime-1/environment -f /tmp/tmp2p0t1osa/uhi-runtime-1__MkMiAaz__env-docker-compose-resources.json -f /home/kajal/.local/share/uv/tools/harbor/lib/python3.13/site-packages/harbor/environments/docker/docker-compose-build.yaml -f /tmp/tmpw2lhyhb5/docker-compose-environment.json -f /tmp/tmp42zn1tzd/docker-compose-mounts.json down --rmi local --volumes --remove-orphans. Return code: 130. Stdout:  Container uhi-runtime-1__mkmiaaz__env-main-1 Stopping 
+ Container uhi-runtime-1__mkmiaaz__env-main-1 Error Error while Stopping
+
+. Stderr: None. 

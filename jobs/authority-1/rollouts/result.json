@@ -1,46 +1,48 @@
 {
-    "id": "f082e4ec-f34b-40a3-aae0-276e31f24686",
-    "started_at": "2026-10-10T07:25:33.130413",
-    "updated_at": "2026-10-10T07:39:37.364178",
-    "finished_at": "2026-10-10T07:39:37.364178",
+    "id": "4d319a5c-2ede-4d6e-b4e3-d33f3472390c",
+    "started_at": "2026-10-10T08:59:20.013252",
+    "updated_at": "2026-10-10T09:00:56.069718",
+    "finished_at": "2026-10-10T09:00:56.069718",
     "n_total_trials": 6,
     "stats": {
         "n_completed_trials": 6,
-        "n_errored_trials": 6,
+        "n_errored_trials": 0,
         "n_running_trials": 0,
         "n_pending_trials": 0,
         "n_cancelled_trials": 0,
         "n_retries": 0,
         "evals": {
             "terminus-2__gpt-5.5__rles": {
-                "n_trials": 0,
-                "n_errors": 6,
+                "n_trials": 6,
+                "n_errors": 0,
                 "metrics": [
                     {
-                        "mean": 0.0
+                        "mean": 1.0
                     }
                 ],
                 "pass_at_k": {
-                    "2": 0.0,
-                    "4": 0.0,
-                    "5": 0.0
+                    "2": 1.0,
+                    "4": 1.0,
+                    "5": 1.0
                 },
-                "reward_stats": {},
-                "exception_stats": {
-                    "RuntimeError": [
-                        "authority-1__pDa4aJK",
-                        "authority-1__qJfMoeC",
-                        "authority-1__hZbegGZ",
-                        "authority-1__jietbnx",
-                        "authority-1__Qn9vkp9",
-                        "authority-1__KRCxqUd"
-                    ]
-                }
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "authority-1__t4SZS6E",
+                            "authority-1__AuivBpw",
+                            "authority-1__Dm9HEBq",
+                            "authority-1__tSGnUnb",
+                            "authority-1__vwie4cD",
+                            "authority-1__Yt77LuS"
+                        ]
+                    }
+                },
+                "exception_stats": {}
             }
         },
-        "n_input_tokens": null,
-        "n_cache_tokens": null,
-        "n_output_tokens": null,
-        "cost_usd": null
+        "n_input_tokens": 26797,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 10782,
+        "cost_usd": 0.457445
     }
 }

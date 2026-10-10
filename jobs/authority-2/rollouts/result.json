@@ -1,46 +1,51 @@
 {
-    "id": "3e04e2fb-8133-4447-95e0-627a52401b50",
-    "started_at": "2026-10-10T07:25:36.427669",
-    "updated_at": "2026-10-10T07:39:39.637104",
-    "finished_at": "2026-10-10T07:39:39.637104",
+    "id": "41a317bd-05fa-42f9-9308-b2012414898e",
+    "started_at": "2026-10-10T09:00:58.691933",
+    "updated_at": "2026-10-10T09:02:49.264362",
+    "finished_at": "2026-10-10T09:02:49.264362",
     "n_total_trials": 6,
     "stats": {
         "n_completed_trials": 6,
-        "n_errored_trials": 6,
+        "n_errored_trials": 1,
         "n_running_trials": 0,
         "n_pending_trials": 0,
         "n_cancelled_trials": 0,
         "n_retries": 0,
         "evals": {
             "terminus-2__gpt-5.5__rles": {
-                "n_trials": 0,
-                "n_errors": 6,
+                "n_trials": 5,
+                "n_errors": 1,
                 "metrics": [
                     {
-                        "mean": 0.0
+                        "mean": 0.8333333333333334
                     }
                 ],
                 "pass_at_k": {
-                    "2": 0.0,
-                    "4": 0.0,
-                    "5": 0.0
+                    "2": 1.0,
+                    "4": 1.0,
+                    "5": 1.0
                 },
-                "reward_stats": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "authority-2__kst9gyu",
+                            "authority-2__VCY766G",
+                            "authority-2__Ljd9soD",
+                            "authority-2__sa5LLT4",
+                            "authority-2__cXAMDTb"
+                        ]
+                    }
+                },
                 "exception_stats": {
-                    "RuntimeError": [
-                        "authority-2__eNE3nsN",
-                        "authority-2__6zJaVue",
-                        "authority-2__zVHcEcG",
-                        "authority-2__Pqm9tYQ",
-                        "authority-2__GnKmtZf",
-                        "authority-2__TA2CR8N"
+                    "RewardFileNotFoundError": [
+                        "authority-2__uBYyDHV"
                     ]
                 }
             }
         },
-        "n_input_tokens": null,
-        "n_cache_tokens": null,
-        "n_output_tokens": null,
-        "cost_usd": null
+        "n_input_tokens": 28535,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 11734,
+        "cost_usd": 0.494695
     }
 }

@@ -1,0 +1,13 @@
+{
+    "task": {
+        "path": "/home/kajal/Desktop/Project/rles/uhi-docs-3",
+        "source": "rles"
+    },
+    "trial_name": "uhi-docs-3__ECbnD7B",
+    "trials_dir": "/home/kajal/Desktop/Project/jobs/uhi-docs-3/rollouts",
+    "agent": {
+        "name": "terminus-2",
+        "model_name": "openai/gpt-5.5"
+    },
+    "job_id": "89559a87-7a04-4252-beab-df84868319f0"
+}

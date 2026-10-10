@@ -1,46 +1,48 @@
 {
-    "id": "5c1bef6e-46bb-4197-b0de-45ada7dff024",
-    "started_at": "2026-10-10T07:25:46.462082",
-    "updated_at": "2026-10-10T07:39:46.512597",
-    "finished_at": "2026-10-10T07:39:46.512597",
+    "id": "4c0a0d5c-3faa-44bc-9181-a768e15843c6",
+    "started_at": "2026-10-10T09:06:27.162099",
+    "updated_at": "2026-10-10T09:08:09.084111",
+    "finished_at": "2026-10-10T09:08:09.084111",
     "n_total_trials": 6,
     "stats": {
         "n_completed_trials": 6,
-        "n_errored_trials": 6,
+        "n_errored_trials": 0,
         "n_running_trials": 0,
         "n_pending_trials": 0,
         "n_cancelled_trials": 0,
         "n_retries": 0,
         "evals": {
             "terminus-2__gpt-5.5__rles": {
-                "n_trials": 0,
-                "n_errors": 6,
+                "n_trials": 6,
+                "n_errors": 0,
                 "metrics": [
                     {
-                        "mean": 0.0
+                        "mean": 1.0
                     }
                 ],
                 "pass_at_k": {
-                    "2": 0.0,
-                    "4": 0.0,
-                    "5": 0.0
+                    "2": 1.0,
+                    "4": 1.0,
+                    "5": 1.0
                 },
-                "reward_stats": {},
-                "exception_stats": {
-                    "RuntimeError": [
-                        "uhi-docs-2__qHxfKmS",
-                        "uhi-docs-2__9uNZnBb",
-                        "uhi-docs-2__4CLTHek",
-                        "uhi-docs-2__x9zSE7a",
-                        "uhi-docs-2__z3qHhUV",
-                        "uhi-docs-2__96vsrpF"
-                    ]
-                }
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "uhi-docs-2__hZxPAXE",
+                            "uhi-docs-2__TLWEsFr",
+                            "uhi-docs-2__u5NFR4s",
+                            "uhi-docs-2__iEoZLhb",
+                            "uhi-docs-2__fFdJiHw",
+                            "uhi-docs-2__5QX85AZ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
             }
         },
-        "n_input_tokens": null,
-        "n_cache_tokens": null,
-        "n_output_tokens": null,
-        "cost_usd": null
+        "n_input_tokens": 29613,
+        "n_cache_tokens": 3584,
+        "n_output_tokens": 11112,
+        "cost_usd": 0.46529700000000007
     }
 }

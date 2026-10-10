@@ -1,0 +1,48 @@
+[?2004hroot@0a5c4aa9f2ad:/workspace# asciinema rec --stdin /logs/agent/recording.cast
+[?2004l[0;32masciinema: recording asciicast to /logs/agent/recording.cast[0m
+[0;32masciinema: press <ctrl-d> or type "exit" when you're done[0m
+[?2004hroot@0a5c4aa9f2ad:/workspace# clear
+[?2004l[H[J[3J[?2004hroot@0a5c4aa9f2ad:/workspace# ls -l /workspace/input.txt && sed -n '1,120p' /workspace/input.txt
+[?2004l-rw-rw-r-- 1 root root 51 Oct 10 01:27 /workspace/input.txt
+alpha beta gamma delta epsilon zeta eta theta iota
+[?2004hroot@0a5c4aa9f2ad:/workspace# python3 - <<'PY'
+[?2004l[?2004h> from pathlib import Path
+[?2004l[?2004h> import hashlib, zlib
+[?2004l[?2004h> p=Path('/workspace/input.txt')
+[?2004l[?2004h> b=p.read_bytes()
+[?2004l[?2004h> s=p.read_text()
+[?2004l[?2004h> print(repr(s))
+[?2004l[?2004h> print('bytes', len(b))
+[?2004l[?2004h> print('words', len(s.split()), 'unique', len(set(s.split())))
+[?2004l[?2004h> print('md5', hashlib.md5(b).hexdigest())
+[?2004l[?2004h> print('sha1', hashlib.sha1(b).hexdigest())
+[?2004l[?2004h> print('sha256', hashlib.sha256(b).hexdigest())
+[?2004l[?2004h> print('crc32', format(zlib.crc32(b)&0xffffffff, '08x'))
+[?2004l[?2004h> print('sum_bytes', sum(b))
+[?2004l[?2004h> PY
+[?2004l'alpha beta gamma delta epsilon zeta eta theta iota\n'
+bytes 51
+words 9 unique 9
+md5 f9096ace936b29ce083de549224621ea
+sha1 e98e46080513444c5dc5292df1f24f1d2891694e
+sha256 d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6
+crc32 62c68014
+sum_bytes 4708
+[?2004hroot@0a5c4aa9f2ad:/workspace# python3 - <<'PY'
+[?2004l[?2004h> from pathlib import Path
+[?2004l[?2004h> import hashlib, json
+[?2004l[?2004h> inp = Path('/workspace/input.txt')
+[?2004l[?2004h> b = inp.read_bytes()
+[?2004l[?2004h> text = b.decode('utf-8')
+[?2004l[?2004h> words = text.split()
+[?2004l[?2004h> report = {
+[?2004l[?2004h>     'word_count': len(words),
+[?2004l[?2004h>     'unique_words': len(set(words)),
+[?2004l[?2004h>     'checksum': hashlib.sha256(b).hexdigest(),
+[?2004l[?2004h>     'status': 'success'
+[?2004l[?2004h> }
+[?2004l[?2004h> Path('/tmp/report.json').write_text(json.dumps(report, separators=(',', ':')) + '\n')
+[?2004l[?2004h> PY
+[?2004l[?2004hroot@0a5c4aa9f2ad:/workspace# cat /tmp/report.json
+[?2004l{"word_count":9,"unique_words":9,"checksum":"d24d0af5fd365ccd3dde73adaeff25abecfd5f798571b73843c78d7279d52ed6","status":"success"}
+[?2004hroot@0a5c4aa9f2ad:/workspace# 
